@@ -1,0 +1,55 @@
+            /* Reset */
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            body{
+                background-image: url(coffee.jpg);
+                object-fit: cover;
+                background-repeat: no-repeat;
+                background-size: 200vh;
+            }
+
+            /* Navbar styling */
+            nav {
+                display: flex;
+                align-items: center;
+                /* background-color: black; */
+                padding: 10px 30px;
+            }
+
+            h1 {
+                font-size: 35px;
+                color: white;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            h1 span {
+                color: orange;
+            }
+
+            /* Align ul to the end */
+            ul {
+                display: flex;
+                list-style: none;
+                margin-left: auto;
+                margin-top: 10px;
+            }
+
+            li {
+                margin-left: 20px;
+            }
+
+            li a {
+                color: white;
+                text-decoration: none;
+                font-size: 14px;
+                padding: 10px;
+                transition: color 0.3s;
+            }
+
+            li a:hover {
+                border: 2px solid orange;
+            }
+        
